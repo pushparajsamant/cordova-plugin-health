@@ -335,7 +335,7 @@ Health.prototype.queryAggregated = function (opts, onSuccess, onError) {
   (opts.dataType !== 'calories') && (opts.dataType !== 'calories.active') &&
   (opts.dataType !== 'calories.basal') && (opts.dataType !== 'activity') &&
   (opts.dataType !== 'workouts') && (!opts.dataType.startsWith('nutrition')) &&
-  (opts.dataType !== 'appleExerciseTime')) {
+  (opts.dataType !== 'appleExerciseTime') && (opts.dataType !== 'stairs')) {
     // unsupported datatype
     onError('Datatype ' + opts.dataType + ' not supported in queryAggregated');
     return;
