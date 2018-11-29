@@ -43,6 +43,7 @@ dataTypes['blood_pressure'] = 'HKCorrelationTypeIdentifierBloodPressure'; // whe
 
 var units = [];
 units['steps'] = 'count';
+units['stairs'] = 'count';
 units['distance'] = 'm';
 units['calories'] = 'kcal';
 units['calories.active'] = 'kcal';
